@@ -14,6 +14,7 @@
 		D68F64A71D94071F00FE3B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68F64A51D94071F00FE3B94 /* LaunchScreen.storyboard */; };
 		D68F64B21D94071F00FE3B94 /* SamplePrepareForSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F64B11D94071F00FE3B94 /* SamplePrepareForSegueTests.swift */; };
 		D68F64BD1D94071F00FE3B94 /* SamplePrepareForSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F64BC1D94071F00FE3B94 /* SamplePrepareForSegueUITests.swift */; };
+		D68F64CB1D940D4300FE3B94 /* View1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F64CA1D940D4300FE3B94 /* View1Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D68F64B81D94071F00FE3B94 /* SamplePrepareForSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePrepareForSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F64BC1D94071F00FE3B94 /* SamplePrepareForSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePrepareForSegueUITests.swift; sourceTree = "<group>"; };
 		D68F64BE1D94071F00FE3B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68F64CA1D940D4300FE3B94 /* View1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D68F64A31D94071F00FE3B94 /* Assets.xcassets */,
 				D68F64A51D94071F00FE3B94 /* LaunchScreen.storyboard */,
 				D68F64A81D94071F00FE3B94 /* Info.plist */,
+				D68F64CA1D940D4300FE3B94 /* View1Controller.swift */,
 			);
 			path = SamplePrepareForSegue;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				D68F649F1D94071F00FE3B94 /* ViewController.swift in Sources */,
 				D68F649D1D94071F00FE3B94 /* AppDelegate.swift in Sources */,
+				D68F64CB1D940D4300FE3B94 /* View1Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

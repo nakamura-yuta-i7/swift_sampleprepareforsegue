@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func tapGotoView1Btn(_ sender: AnyObject) {
+        performSegue(withIdentifier: "gotoView1Segue", sender: sender)
+    }
+    @IBAction func tapGotoView2Btn(_ sender: AnyObject) {
+        performSegue(withIdentifier: "gotoView2Segue", sender: sender)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        print("segue:", segue.identifier)
+        print("sender:", sender)
+    }
+    @IBAction func backHome(segue: UIStoryboardSegue) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
